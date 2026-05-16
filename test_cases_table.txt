@@ -1,0 +1,26 @@
+GUI TEST CASES - PLACEMENT AND INDUSTRY ENGAGEMENT MANAGEMENT SYSTEM
+
+| Test ID | Function Tested | Input | Expected Output | Actual Output | Pass/Fail |
+|---|---|---|---|---|---|
+| T1 | Valid student login | username: student1, password: password | Student dashboard opens successfully | As shown below | PASS |
+| T2 | Invalid login | username: student1, password: wrongpass | Error message: Invalid username or password | As shown below | PASS |
+| T3 | View placements | Student selects View Placements | Open placement opportunities are displayed | As shown below | PASS |
+| T4 | Submit placement application | Select Software Engineering Intern, enter cover note, choose CV | Application submitted successfully | As shown below | PASS |
+| T5 | Prevent duplicate application | Apply for the same placement again | Warning message shows already applied | As shown below | PASS |
+| T6 | Track application | Student selects My Applications | Submitted application is displayed with status | As shown below | PASS |
+| T7 | Upload document | Select application and choose file | Document path is saved successfully | As shown below | PASS |
+| T8 | Placement Team login | username: placement1, password: password | Placement Team dashboard opens | As shown below | PASS |
+| T9 | Create opportunity | Enter placement details and click Save New | New placement opportunity is created | As shown below | PASS |
+| T10 | Update opportunity | Select placement, edit details, click Update Selected | Placement details updated successfully | As shown below | PASS |
+| T11 | Close opportunity | Select placement and click Close Selected | Placement status changes to Closed | As shown below | PASS |
+| T12 | Review applications | Placement Team selects Review Applications | Submitted student applications are displayed | As shown below | PASS |
+| T13 | Approve application | Select application, decision Approved, save | Application status changes to Approved | As shown below | PASS |
+| T14 | Reject application | Select application, decision Rejected, save | Application status changes to Rejected | As shown below | PASS |
+| T15 | Supervisor login | username: supervisor1, password: password | Supervisor dashboard opens | As shown below | PASS |
+| T16 | Monitor progress | Add milestone and progress note | Progress record is saved | As shown below | PASS |
+| T17 | Provide feedback | Select application, rating 5, enter comment | Feedback saved successfully | As shown below | PASS |
+| T18 | Generate reports | Placement Team or Supervisor selects Reports | Summary report is displayed | As shown below | PASS |
+| T19 | Industry Partner login | username: partner1, password: password | Industry Partner dashboard opens | As shown below | PASS |
+| T20 | Partner posts opportunity | Enter opportunity details and save | Opportunity is saved in database | As shown below | PASS |
+| T21 | Notifications | Student opens Notifications after application update | Notification is displayed | As shown below | PASS |
+| T22 | Mark notification read | Select notification and click Mark Selected as Read | Notification read status changes to Yes | As shown below | PASS |
